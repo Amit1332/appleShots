@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.apple{
+    height: 100vh;
+    width:100%;
+    /* background: red; */
+}
+.apple .nav{
+    position: fixed;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+   z-index: 33;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+
+
+    
+}
+.apple .nav li{
+    list-style: none;
+    
+}
+.apple .nav li a{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+    font-size: 13px;
+}
+
+.apple .nav li a:hover{
+    color: crimson;
+}
+.logo{
+    margin-left: 5px;
+}
+.ri-lock-2-line{
+    margin-right: 5px;
+}
+.nav i{
+    color: white;
+    font-size: 18px;
+}
+.nav i:hover{
+    color: darkorange;
+}
+.iphone13{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.iphone13 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 70px;
+    color: rgba(0, 0, 0, 0.863);
+    
+}
+.iphone13 h1:hover{
+    color: darkorange;
+}
+.iphone13 h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.781);
+    font-family: "Almarena";
+    line-height: 50px;
+}
+.iphone13 li{
+        list-style: none;
+        line-height: 50px;
+
+    }
+    .iphone13 li a{
+        text-decoration: none;
+        color:#2997ff;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .iphone13 li a:hover{
+        border-bottom: 2px solid rgb(218, 135, 12);
+        color: darkorange;
+    }
+    .iphone13 img{
+        height: 380px;
+        width: 550px;
+    }
+
+    .iphone12{
+        background-color: rgba(37, 23, 48, 0.932);
+    }
+    .iphone12 h1{
+        color: white;
+    }
+    .iphone12 h3{
+        color: rgba(195, 166, 233, 0.89);
+    }
+    .iphone12 img{
+        height: 380px;
+        width: 850px;
+    }
+    .iphone10 img{
+        margin-top: 10px;
+        width: 98.9vw;
+    }
+
+
+    .watch{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+        /* background-color: red; */
+    }
+    .watch .firstWatch{
+     background-color: rgba(228, 220, 220, 0.884);
+     width: 49%;
+     margin-left: 10px;
+    }
+
+    .watch .firstWatch h6{
+        margin-top: 35px;
+        color: red;
+        font-size: 15px;
+        font-family:sans-serif;
+    }
+
+    .watch .firstWatch h1{
+        margin-top: 1px;
+    }
+
+    .watch .firstWatch h4{
+        font-family: sans-serif;
+        color: red;
+    }
+
+    .watch .firstWatch p{
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+    .secondWatch{
+        background: url(https://media.istockphoto.com/photos/halloween-party-card-pumpkins-and-skeleton-in-graveyard-at-night-with-picture-id1338907781?b=1&k=20&m=1338907781&s=170667a&w=0&h=_9NiBRWX9yVBmGQMDemXsmgmsPqKbQCGC5D0wO1B_uA=);
+        /* z-index: -1; */
+        background-position: center;
+        background-size: cover;
+        width: 49%;
+        margin-right: 10px;
+        position: relative;
+    }
+    .secondWatch h1{
+        position: absolute;
+        margin-top:20px ;
+        
+        top: 150px;
+        color: rgb(241, 235, 235);
+        
+    }
+    .secondWatch  h1:hover{
+        color: darkorange;
+        
+    }
+    .secondWatch p:hover{
+        color: deeppink;
+    }
+    .secondWatch a:hover{
+        color: gold;
+    }
+    .secondWatch p{
+        font-size: 22px;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 60px;
+    }
+    .secondWatch a{
+        text-decoration: none;
+        color: white;
+        font-family:sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .mobilewatch h2{
+        margin-top:50px ;
+        color: rgba(99, 10, 141, 0.979);
+        font-family:sans-serif;
+    }
+
+    .mobilewatch h1{
+        color: rgba(99, 10, 141, 0.979);
+        font-size: 38px;
+        font-family:sans-serif;
+    }
+
+    .mobilewatch img{
+        width: 400px;
+    }
+    .kaluamen{
+        margin-right: 10px;
+        background-color: rgba(245, 239, 239, 0.911);
+        width: 49%;
+    }
+    .kaluamen p{
+        font-size: 21px;
+        font-family: sans-serif;
+        
+    }
+    .kaluamen a{
+        text-decoration: none;
+        font-size: 15px;
+        color:#2997ff;
+        font-family: sans-serif;
+        line-height: 25px;
+
+    }
+    .kaluamen span{
+        font-size: 10px;
+        position: absolute;
+    }
+    .ri-arrow-right-up-line{
+        margin-left: 5px;
+    }
+
+    .acessories img{
+        height: 300px;
+        width: 100%;
+        
+    }
+    .acessories h1{
+        
+        font-size:40px;
+    }
+    .acessories h1 i{
+        color: rgb(228, 56, 4);
+    }
+
+    .acessories h1 .orange{
+        color: crimson;
+
+    }
+    .acessories h1 .tomato{
+        color: rgba(218, 12, 125, 0.76);
+    }
+    .acessories h1 .purple{
+        color: rgba(147, 20, 220, 0.705);
+    }
+    .acessories h1 .blue{
+        color: rgba(55, 15, 231, 0.692);
+    }
+    .acessories p{
+
+        font-size: 20px;
+        color: rgba(41, 40, 40, 0.863);
+    }
+
+    .acessories h3{
+        font-size: 18px;
+        color: rgba(49, 47, 47, 0.637);
+    }
+    .acessories h3 span{
+        font-size: 12px;
+        position: absolute;
+    }
+    .halloweens {
+        background: url(https://pics.filmaffinity.com/Fraggle_Rock_TV_Series-177750999-large.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .halloweens h1{
+         color: white;
+        }
+        .halloweens h3{
+            display: flex;
+            justify-content: center;
+           color: white;
+           margin-top: 155px;
+           margin-left: 155px;
+        }
+
+        .halloweens h3:hover{
+            color: rgb(166, 6, 240);
+        }
+        .halloweens h3 i{
+            margin-left: 5px;
+        }
+
+        .para{
+            /* position: absolute; */
+            left: 20%;
+           /*  */
+           justify-content: center;
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            
+        }
+        .para p{
+            font-family: sans-serif;
+            font-size: 13px;
+            color: rgba(116, 111, 111, 0.973);
+            width: 80%;
+        }
+        hr{
+            color: 7px solid black;
+            margin-top: 15px;
+            margin-bottom: 7px;
+
+        }
+
+        .copyright{
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(26, 24, 24, 0.781);
+        }
+        .copyright p{
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        
+
+        
+
+
+
+    
+    
